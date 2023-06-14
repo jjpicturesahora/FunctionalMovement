@@ -11,6 +11,7 @@
     <style>
         .esloganes{
             background-color: white;
+           
             
         }
         .bullets{
@@ -42,12 +43,14 @@
             padding: 5pt;
             text-align: center;
             font-style: italic;
+            box-sizing: border-box;
+            float: left;
         
             
         }
 
         .masValor{
-            background-color: aliceblue;
+            background-color: azure;
             padding: 5pt;
         }
 
@@ -59,46 +62,49 @@
         
         }
         
-        .header{
-            height: 120px;
-            width:1000px;
-            max-width: 1000px;
-            background-color: ;
+        
 
-        }
 
         @media screen and (max-width: 800px){
             .container{
                 width: 90%;
             }
-            /* .disclaimer{
-                width: 100%;
-            } */
+           
         }
 
         @media screen and (max-width: 500px){
             .container{
+                width: 95%;
+            }
+           
+        }
+        @media screen and (max-width: 400px){
+            .container{
                 width: 100%;
             }
-            /* .disclaimer{
-                width: 100%;
-            } */
+            
         }
 
-
     </style>
+    <header id="Header">
+    <img src="Logo-comprimido-1@2x.png" alt="" class="logo">
+    <!--Menu Header-->
+    <ul class = "main-menu">
+        <li class="menu-item">La Propuesta</li>
+        <li class="menu-item">Tres Parámetros</li>
+        <li class="menu-item">Otros Beneficios</li>
+        <li class="cta">Sign In</li>
+    </ul>
+    </header>
+
     <div class="container">
-        <div class="header">
-            <br>
-            <a href="Testimonios">Testimonios</a>
-            <br><br>
-            <a href="Objetivos">Objetivos</a>
-            <br><br>
-            <a href="¡Mucho más!">¡Mucho mas!</a>
-        </div>
+        
+
         <div class="esloganes">
         <section class="transformaTuCuerpo">
             <p>
+                <br>
+            
                 <strong style="color: darkred">Transforma Tu Cuerpo <i>¡Ya!</i></strong> con Entrenamiento Virtual <i>On Demand:</i> <strong style="color: darkred"><i>Recomposición Corporal.</i></strong>
             </p>
         </section>
@@ -369,6 +375,7 @@
         </section>
     </div>
 
-    </div>
+</div>
+<script src="code.js"></script>
 </body>
 </html>

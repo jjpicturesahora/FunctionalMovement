@@ -19,9 +19,59 @@ p{
     padding: 5pt;
 }
 
-
-
 body{
     margin:0;
 }
 
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.logo{
+    height: 60%;
+}
+
+.menu-item{
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #f2f2f2;
+}
+
+.cta{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color:#f2f2f2;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.cta:hover{
+    color:#f2f2f2;
+    background-color: #04548a;
+}
+
+.menu-item:hover{
+    color:var(--main-color);
+}
