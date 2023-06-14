@@ -11,25 +11,29 @@
     <style>
         .esloganes{
             background-color: white;
-            width: 70%;
+            
         }
         .bullets{
             background-color: brown;
             color: lightgray;
             padding: 5pt;
-            width: 30%;
+            float: right;
+            box-sizing: border-box;
+            
         }
         .bullets2{
             background-color: brown;
             color: lightgray;
             padding: 5pt;
-            width: 30%;
+            box-sizing: border-box;
+            float:inline-start;
         }
 
         .disclaimer{
             background-color:lightgray;
             padding: 5pt;
             font-size: 9pt;
+            
         }
 
         .testimonios{
@@ -38,7 +42,8 @@
             padding: 5pt;
             text-align: center;
             font-style: italic;
-            width: 80%;
+        
+            
         }
 
         .masValor{
@@ -51,6 +56,7 @@
             width: 80%;
             margin: 0 auto;
             overflow: hidden;
+        
         }
         
         .header{
@@ -61,15 +67,23 @@
 
         }
 
-        /* @media screen and (max-width: 1000px){
-            #container{
+        @media screen and (max-width: 800px){
+            .container{
+                width: 90%;
+            }
+            /* .disclaimer{
+                width: 100%;
+            } */
+        }
+
+        @media screen and (max-width: 500px){
+            .container{
                 width: 100%;
             }
-            aside{
+            /* .disclaimer{
                 width: 100%;
-            }
-        } */
-        
+            } */
+        }
 
 
     </style>
@@ -141,6 +155,7 @@
         <div class="disclaimer">
         <section class="garantizamosLaPrivacidad">
             <p>
+                
                 <strong>TRATAMIENTO DE INFORMACION PERSONAL:</strong>
                 <br><br>
                 En <i>Functional Movement</i> garantizamos la 
