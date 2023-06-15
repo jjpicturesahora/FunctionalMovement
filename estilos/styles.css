@@ -30,12 +30,14 @@ header{
     top: 0;
     left: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 5%;
     box-sizing: border-box;
     height: 100px;
     transition: 0.5s;
+    background-color: rgba(256, 256, 256, 256);
+    
 }
 
 .main-menu{
@@ -45,19 +47,20 @@ header{
     list-style: none;
 }
 
-.logo{
+/* .logo{
     height: 60%;
-}
+    display: flex;
+} */
 
-.menu-item{
+/* .menu-item{
     margin: 0 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;
     color: #f2f2f2;
-}
+} */
 
-.cta{
+/* .cta{
     padding: 10px 24px;
     border-radius: 30px;
     background-color: var(--main-color);
@@ -65,13 +68,15 @@ header{
     font-weight: 600;
     cursor: pointer;
     transition: 0.5;
-}
+} */
 
-.cta:hover{
+/* .cta:hover{
     color:#f2f2f2;
     background-color: #04548a;
-}
+} */
 
-.menu-item:hover{
+/* .menu-item:hover{
     color:var(--main-color);
-}
+} */
+
+/* 14.06.23 */

@@ -45,8 +45,6 @@
             font-style: italic;
             box-sizing: border-box;
             float: left;
-        
-            
         }
 
         .masValor{
@@ -59,12 +57,8 @@
             width: 80%;
             margin: 0 auto;
             overflow: hidden;
-        
         }
         
-        
-
-
         @media screen and (max-width: 800px){
             .container{
                 width: 90%;
@@ -81,30 +75,61 @@
         @media screen and (max-width: 400px){
             .container{
                 width: 100%;
-            }
-            
+            } 
         }
 
+        #Header {
+    text-align: center;
+}
+
+
+
+/* #Header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.5s ease;
+} */
+
+.logo {
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+    position: fixed;
+}
+
+#Header div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content:center;
+}
+
+#Header.active {
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
     </style>
     <header id="Header">
+
+
     <img src="Logo-comprimido-1@2x.png" alt="" class="logo">
     <!--Menu Header-->
-    <ul class = "main-menu">
-        <li class="menu-item">La Propuesta</li>
-        <li class="menu-item">Tres Parámetros</li>
-        <li class="menu-item">Otros Beneficios</li>
-        <li class="cta">Sign In</li>
-    </ul>
+   
     </header>
 
     <div class="container">
         
 
         <div class="esloganes">
-        <section class="transformaTuCuerpo">
+        
+            <section class="transformaTuCuerpo">
             <p>
-                <br>
-            
+            <br>
+            <br>
                 <strong style="color: darkred">Transforma Tu Cuerpo <i>¡Ya!</i></strong> con Entrenamiento Virtual <i>On Demand:</i> <strong style="color: darkred"><i>Recomposición Corporal.</i></strong>
             </p>
         </section>
