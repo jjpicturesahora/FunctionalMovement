@@ -23,6 +23,41 @@ body{
     margin:0;
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    
+    
+  }
+  
+  .logo {
+      width: 250px;
+      height: auto;
+      display:inline-block;
+      justify-content: center;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+  }
+
+  .phone{
+    width: 10rem;
+    height: 1rem;
+    padding: 0;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .email{
+    width: 20rem;
+    height: 1rem;
+    padding: 0;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
 .esloganes{
     background-color: white;
 }
@@ -79,57 +114,90 @@ body{
     left: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
-    align-content: space-between;
+    flex-wrap: wrap;
     padding: 0 5%;
     box-sizing: border-box;
     height: 120px;
     transition: 0.5s;
     background-color:white;
+
+}
+
+logotypeHolder{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 120px;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+.headerTransparency{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 120px;
+    transition: 0.5s;
+    background-color:transparent;
+}
+
+.contactInfo{
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1000px;
+    width: 80%;
+    position: fixed;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: wrap;
+    height: auto;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 800px){
     .container{
         width: 90%;
     }
-    #Header{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        align-content: space-between;
-        padding: 0 5%;
-        box-sizing: border-box;
-        height: 120px;
-        transition: 0.5s;
-        background-color:white;
+
+    .contactInfo{
+        flex-direction: row;
+        justify-content: space-between;
     }
+    Header{
+        flex-direction: row;
+    }
+
 }
 
 @media screen and (max-width: 500px){
     .container{
         width: 95%;
     }
-    #Header{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
+
+    .contactInfo{
+        flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap;
         align-items: center;
-        align-content: space-between;
-        padding: 0 5%;
-        box-sizing: border-box;
-        height: 120px;
-        transition: 0.5s;
-        background-color:white;
+        flex-wrap: wrap;
     }
 }
 
@@ -137,22 +205,6 @@ body{
     .container{
         width: 100%;
     }
-  
-    #Header{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        align-content: space-between;
-        padding: 0 5%;
-        box-sizing: border-box;
-        height: 120px;
-        transition: 0.5s;
-        background-color:white;
-    }
+ 
   } 
 
