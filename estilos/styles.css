@@ -117,14 +117,14 @@ body{
     align-items: center;
     flex-wrap: wrap;
     padding: 0 5%;
+    margin: 0;
     box-sizing: border-box;
-    height: 120px;
+    height: 160px;
     transition: 0.5s;
     background-color:white;
-
 }
 
-logotypeHolder{
+.logotypeHolder{
     width: 100%;
     position: fixed;
     top: 0;
@@ -151,7 +151,7 @@ logotypeHolder{
     flex-wrap: wrap;
     padding: 0 5%;
     box-sizing: border-box;
-    height: 120px;
+    height: 150px;
     transition: 0.5s;
     background-color:transparent;
 }
