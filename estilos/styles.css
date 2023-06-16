@@ -43,6 +43,7 @@ body{
   }
 
   .phone{
+    display: flex;
     width: 10rem;
     height: 1rem;
     padding: 0;
@@ -51,7 +52,7 @@ body{
   }
 
   .email{
-    width: 20rem;
+    width: 25rem;
     height: 1rem;
     padding: 0;
     border: 0;
