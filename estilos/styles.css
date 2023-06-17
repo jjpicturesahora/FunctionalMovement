@@ -39,8 +39,9 @@ body{
     height: 1rem;
     padding: 0;
     border: 0;
+    margin-top: 0;
     margin-bottom: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 
   .email{
@@ -49,7 +50,7 @@ body{
     height: 1rem;
     padding: 0;
     border: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     margin-top: 0px;
     margin-bottom: 10px;
   }
@@ -143,6 +144,10 @@ body{
     top: 0;
     left: 0;
     display: flex;
+    text-align: center; 
+    
+    /* Text is treated different (text-align) */
+
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -151,13 +156,14 @@ body{
     height: 160px;
     transition: 0.5s;
     background-color:transparent;
+
 }
 
 .contactInfoUL{
     overflow: hidden;
     max-width: 1000px;
     width: 100%;
-    position: fixed;
+    position: relative;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -173,7 +179,7 @@ body{
         width: 90%;
     }
 
-    .contactInfo{
+    .contactInfoUL{
         flex-direction: row;
         justify-content: space-between;
     }
@@ -188,17 +194,18 @@ body{
         width: 95%;
     }
 
-    .contactInfo{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+    .contactInfoUL{
+        height: 170px;
+        width: 95%;
     }
 }
 
 @media (max-width: 400px) {
     .container{
         width: 100%;
+    }
+    .contactInfoUL{
+        height: 170px;
     }
  
   } 
