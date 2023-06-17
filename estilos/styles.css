@@ -166,29 +166,15 @@ body{
 
 }
 
-.contactInfoUL{
-    overflow: hidden;
-    max-width: 1000px;
-    width: 100%;
-    position: relative;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: wrap;
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
 
 @media screen and (max-width: 800px){
     .container{
         width: 90%;
     }
 
-    .contactInfoUL{
+    .contactInfoCard{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
     Header{
         flex-direction: row;
@@ -205,6 +191,9 @@ body{
         height: 170px;
         width: 95%;
     }
+    .email{
+        font-size: small;;
+    }
 }
 
 @media (max-width: 400px) {
@@ -213,6 +202,9 @@ body{
     }
     .contactInfoUL{
         height: 170px;
+    }
+    .email{
+        font-size: smaller;
     }
  
   } 
