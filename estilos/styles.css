@@ -22,17 +22,8 @@ p{
 body{
     margin:0;
 }
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    
-    
-  }
   
-  .logo {
+  .logo{
       width: 250px;
       height: auto;
       display:inline-block;
@@ -43,21 +34,26 @@ body{
   }
 
   .phone{
-    display: flex;
+    display:inline-block;
     width: 10rem;
     height: 1rem;
     padding: 0;
     border: 0;
+    margin-bottom: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
   .email{
+    display:inline-block;
     width: 25rem;
     height: 1rem;
     padding: 0;
     border: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
+
 
 .esloganes{
     background-color: white;
@@ -120,12 +116,12 @@ body{
     padding: 0 5%;
     margin: 0;
     box-sizing: border-box;
-    height: 160px;
+    height: 150px;
     transition: 0.5s;
     background-color:white;
 }
 
-.logotypeHolder{
+.logotypeCard{
     width: 100%;
     position: fixed;
     top: 0;
@@ -141,7 +137,7 @@ body{
     background-color: transparent;
 }
 
-.headerTransparency{
+.contactInfoCard{
     width: 100%;
     position: fixed;
     top: 0;
@@ -157,8 +153,7 @@ body{
     background-color:transparent;
 }
 
-.contactInfo{
-    margin: 0 auto;
+.contactInfoUL{
     overflow: hidden;
     max-width: 1000px;
     width: 100%;
@@ -168,8 +163,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     flex-direction: wrap;
-    height: 100%;
-    gap: 1rem;
+    height: auto;
     padding: 0;
     margin: 0;
 }
