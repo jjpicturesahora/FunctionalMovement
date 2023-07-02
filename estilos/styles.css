@@ -1,5 +1,7 @@
 
 
+
+
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,6 +10,11 @@ p{
 .transformaTuCuerpo{
     font-size: 25pt;
     padding: 5pt;
+    
+}
+
+.esloganesTexto{
+    color: white;
 }
 
 .registrateYTransformaTuCuerpo{
@@ -60,7 +67,10 @@ body{
 
 
 .esloganes{
-    background-color: white;
+    background-color: transparent;
+    width: 500px;
+    
+    
 }
 
 .bullets{
@@ -86,9 +96,7 @@ body{
     font-size: 9pt;
     
 }
-.garantizamosLaPrivacidad{
-    
-}
+
 
 .testimonios{
     background-color: lightgrey;
@@ -105,11 +113,40 @@ body{
     padding: 5pt;
 }
 
+.backgroundImageContainer{
+    height: auto;
+    width: 1000px;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: -10;
+    
+}
+
+.background-image{
+    display: flex;
+    height: 900px;
+    /* width: 1000px; */
+    position: relative;
+    justify-content: center;
+}
+
+.window{
+    height: 600px;
+}
+
 .container{
     max-width: 1000px;
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
+}
+
+.underHeader{
+    height: 120px;
+    justify-content: center;
+    z-index: -1;
 }
 
 #Header{
