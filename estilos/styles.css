@@ -121,7 +121,7 @@ body{
     
 }
 
-body{
+.container{
     background-image: url('/Recursos/ChicaTrapecio.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -129,7 +129,7 @@ body{
 }
 
 @media (max-width: 768px) {
-  body {
+  .container {
     background-position: center;
   }
 
