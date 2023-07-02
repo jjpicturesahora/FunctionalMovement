@@ -69,8 +69,7 @@ body{
 .esloganes{
     background-color: transparent;
     width: 500px;
-    
-    
+    height: 500px;
 }
 
 .bullets{
@@ -94,9 +93,7 @@ body{
     padding: 5pt;
     margin-top: 10pt;
     font-size: 9pt;
-    
 }
-
 
 .testimonios{
     background-color: lightgrey;
@@ -127,7 +124,6 @@ body{
 .background-image{
     display: flex;
     height: 900px;
-    /* width: 1000px; */
     position: relative;
     justify-content: center;
 }
