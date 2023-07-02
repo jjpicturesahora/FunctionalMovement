@@ -127,8 +127,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: red;
-    z-index: 5;
 }
 
 @media (max-width: 768px) {
