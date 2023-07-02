@@ -121,7 +121,19 @@ body{
     
 }
 
+body{
+    background-image: url('/Recursos/ChicaTrapecio.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+@media (max-width: 768px) {
+  body {
+    background-position: center;
+  }
+
+}
 
 .background-image{
     display: flex;
